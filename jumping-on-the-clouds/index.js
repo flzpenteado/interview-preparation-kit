@@ -1,6 +1,6 @@
 const jumpingOnTheClouds = (c) => {
 
-    let count = 0;
+    let jumps = 0;
     let currentCloud = 0;
     let i = 0;
 
@@ -13,11 +13,11 @@ const jumpingOnTheClouds = (c) => {
         } else {
             currentCloud++;
         }
-        count++;
+        jumps++;
 
     }
 
-    return count;
+    return jumps;
 }
 
 module.exports = jumpingOnTheClouds;
